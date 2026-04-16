@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import FinanceDataReader as fdr
+
+st.title("AI 공급망 분석 대시보드")
+st.write("분석 데이터를 확인하세요.")
+import streamlit as st
+import pandas as pd
+import FinanceDataReader as fdr
 import plotly.express as px
 import plotly.graph_objects as go
 
